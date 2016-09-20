@@ -117,13 +117,13 @@
 	img.scale-with-grid {
 		max-width: 100%;
 		height: auto; }
-		
-		
+
+
 	.img-responsive {
 	 width: auto;
-	 height: 200px;
+	 max-height: 100%;
 	}
-		
+
 /* #Buttons
 ================================================== */
 
