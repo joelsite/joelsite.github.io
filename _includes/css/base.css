@@ -112,7 +112,8 @@
 	li p { line-height: 21px; }
 	
 	ul#horizontalmenu li {
-    		display:inline;
+    		display: inline-table;
+    		margin: 0 auto;
 	}
 
 
