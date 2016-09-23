@@ -14,9 +14,9 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "Divine Cleaning Services"
+title:       "A Divine Cleaning Service"
 keywords:    "Divine, Cleaning, Services, jekyll, template, github, blog, single page"
-description: "A single-page template for Jekyll based blogs (like what you'd use on github pages!)"
+description: "‘A cleaning service provided with divine care’"
 source_link: "http://adivineservice.com"
 favicon:     #put a path like: "img/favicon.ico"
 touch_icon:  #put a path like: "img/apple-touch-icon.png"
