@@ -1,2 +1,2 @@
-Designed by Joel Kalete 
+A Divine Service Copyright &copy 2016
 
