@@ -14,7 +14,7 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "A Divine Cleaning Service"
+title:       "A Divine Service"
 keywords:    "Divine, Cleaning, Services, jekyll, template, github, blog, single page"
 description: "‘A cleaning service provided with divine care’"
 source_link: "http://adivineservice.com"
