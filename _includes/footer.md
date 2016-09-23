@@ -1,2 +1,2 @@
-A Divine Service Copyright &copy 2016
+A Divine Service Copyright &copy; 2016
 
