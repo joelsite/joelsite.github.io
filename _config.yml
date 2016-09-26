@@ -18,7 +18,7 @@ title:       "A Divine Service"
 keywords:    "Divine, Cleaning, Services, jekyll, template, github, blog, single page"
 description: "‘A cleaning service provided with divine care’"
 source_link: "http://adivineservice.com"
-favicon:     #put a path like: "img/favicon.ico"
+favicon:     "img/favicon.ico" #put a path like: "img/favicon.ico"
 touch_icon:  "img/logo.png" #put a path like: "img/apple-touch-icon.png"
 google_analytics_key: UA-80740044-2 ## put YOUR key here to enable tracking! (blank to disable)
 
