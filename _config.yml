@@ -1,5 +1,5 @@
 ---
-githubToken: 
+githubToken: e7971fc8e0ab3fb18a4a0619f510803affe6fb4a
 port: 4000
 host: 0.0.0.0
 safe: false
