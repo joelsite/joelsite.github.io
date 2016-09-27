@@ -39,16 +39,16 @@ kramdown:
 
 
 #Static Man Configuration
+staticman:
+  allowedFields: ['name', 'email', 'comment']
+  branch: 'master'
+  filename: entry{@timestamp} # The resolved path will be _data/posts/entry1470750784949.json
+  format: 'json'
 
-allowedFields: ['name', 'email', 'comment']
-branch: 'master'
-filename: entry{@timestamp} # The resolved path will be _data/posts/entry1470750784949.json
-format: 'json'
-
-generatedFields:
-  myField:
-    type: date
-    options:
-      format: timestamp
+  generatedFields:
+    myField:
+      type: date
+      options:
+        format: timestamp
       
-# moderation: true
+  # moderation: true
