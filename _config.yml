@@ -45,6 +45,6 @@ staticman:
  commitMessage: "Hey human, here is a new entry."
  filename: "entry{@timestamp}"
  format: yml
- moderation: false
+ moderation: true
  path: "_data/reviews"
  requiredFields: ['name', 'message']
