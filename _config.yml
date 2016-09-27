@@ -38,17 +38,13 @@ kramdown:
   auto_ids:  false
 
 
-#Static Man Configuration
+# Staticman
 staticman:
-  allowedFields: ['name', 'email', 'comment']
-  branch: 'master'
-  filename: entry{@timestamp} # The resolved path will be _data/posts/entry1470750784949.json
-  format: 'json'
-
-  generatedFields:
-    myField:
-      type: date
-      options:
-        format: timestamp
-      
-  # moderation: true
+ allowedFields: ['name', 'title', 'description', 'rating']
+ branch: gh-pages
+ commitMessage: "Hey human, here is a new entry."
+ filename: "entry{@timestamp}"
+ format: yml
+ moderation: true
+ path: "_data/reviews"
+ requiredFields: ['name', 'title', 'description', 'rating']
