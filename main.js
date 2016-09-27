@@ -9,7 +9,7 @@
       data: $(this).serialize(),
       contentType: 'application/x-www-form-urlencoded',
       success: function (data) {
-        console.log(data);
+        $("#myModal").modal();
       },
       error: function (err) {
         console.log(err);
