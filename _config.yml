@@ -34,6 +34,7 @@ colors:
   turquoise: '#0fbfcf'
   teal:      '#008080'
   khaki:     '#f0ad4e'
+  navmatch:  '#333'
 
 kramdown:
   auto_ids:  false
