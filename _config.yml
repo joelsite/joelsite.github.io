@@ -33,6 +33,7 @@ colors:
   orange:    '#fab125'
   turquoise: '#0fbfcf'
   teal:      '#008080'
+  khaki:     '#F0E68C'
 
 kramdown:
   auto_ids:  false
