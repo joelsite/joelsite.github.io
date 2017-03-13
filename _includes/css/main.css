@@ -37,13 +37,6 @@ code, pre {
   word-wrap: break-word;
 }
 
-/* modal code */
-@media screen and (min-width: 768px) {
-	#bookingModal .modal-dialog  {height:900px;}
-	#bookingModal .modal-content  {height:900px;}
-	#bookingModal .modal-body  {height:900px;}
-}
-
 
 /* block code */
 pre code { background: none; display: block; }
