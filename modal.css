@@ -1,0 +1,10 @@
+#myModal 
+{
+    width: 700px; 
+    margin-top: -300px !important;
+    margin-left:  -350px !important; 
+} 
+
+#myModal .modal-body {
+    max-height: 525px;
+}
