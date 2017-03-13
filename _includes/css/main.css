@@ -37,6 +37,12 @@ code, pre {
   word-wrap: break-word;
 }
 
+/* modal code */
+@media screen and (min-width: 768px) {
+	#bookingModal .modal-dialog  {width:900px;}
+}
+
+
 /* block code */
 pre code { background: none; display: block; }
 pre {
