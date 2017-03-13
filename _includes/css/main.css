@@ -39,7 +39,7 @@ code, pre {
 
 /* modal code */
 @media screen and (min-width: 768px) {
-	#bookingModal .modal-dialog  {width:900px;}
+	#bookingModal .modal-dialog  {height:900px;}
 }
 
 
