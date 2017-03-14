@@ -52,7 +52,7 @@ pre {
 
 
 .modal-content {
-  background:url(../img/loader.gif) center center no-repeat;
+  background:url(../img/loader.gif) top center repeat;
  }
 
 /* ----- base elements ----- */
