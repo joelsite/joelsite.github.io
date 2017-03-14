@@ -51,7 +51,7 @@ pre {
 .highlight { margin:20px 5%; }
 
 
-#bookingModal {
+.modal-content {
   background:url(../img/loader.gif) center center no-repeat;
  }
 
