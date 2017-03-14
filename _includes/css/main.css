@@ -51,6 +51,10 @@ pre {
 .highlight { margin:20px 5%; }
 
 
+.modal-content {
+  background:url(../images/loader.gif) center center no-repeat;
+ }
+
 /* ----- base elements ----- */
 
 img {
