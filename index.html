@@ -103,7 +103,11 @@
 	beforeOpen: function() {
 	    $('#full-modal-content').css("height", $(document).height());
 	    console.log("The animation was called");
-		$('<iframe />', {
+		
+	},           
+	afterOpen: function() {
+	    console.log("The animation is completed");
+	      $('<iframe />', {
                name: 'frame1',
                id: 'frame1',
 	       width:'100%',
@@ -114,10 +118,6 @@
                src: 'https://docs.google.com/forms/d/e/1FAIpQLSc_oYsjtCtOKeat6S7U3ssu2fQC_LmcSPoJsxDp61cqmglJlA/viewform?embedded=true'
               }).appendTo(".modal-content");
 	   $('#frame1').css("height", $(document).height());
-	},           
-	afterOpen: function() {
-	    console.log("The animation is completed");
-		
 	}, 
 	beforeClose: function() {
 	    console.log("The animation was called");
