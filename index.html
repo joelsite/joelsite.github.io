@@ -102,10 +102,7 @@
 	// Callbacks
 	beforeOpen: function() {
 	    console.log("The animation was called");
-	},           
-	afterOpen: function() {
-	    console.log("The animation is completed");
-            $('<iframe />', {
+		$('<iframe />', {
                name: 'frame1',
                id: 'frame1',
 	       width:'100%',
@@ -115,8 +112,9 @@
 	       marginwidth:'0',
                src: 'https://docs.google.com/forms/d/e/1FAIpQLSc_oYsjtCtOKeat6S7U3ssu2fQC_LmcSPoJsxDp61cqmglJlA/viewform?embedded=true'
               }).appendTo(".modal-content");
-	   $( "<\iframe>" ).appendTo( ".modal-content" );
-	
+	},           
+	afterOpen: function() {
+	    console.log("The animation is completed");
 	}, 
 	beforeClose: function() {
 	    console.log("The animation was called");
