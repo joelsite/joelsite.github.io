@@ -101,6 +101,7 @@
 	color:'#3498db',
 	// Callbacks
 	beforeOpen: function() {
+	    $('#full-modal-content').css("height", $(document).height());
 	    console.log("The animation was called");
 		$('<iframe />', {
                name: 'frame1',
@@ -115,7 +116,6 @@
 	},           
 	afterOpen: function() {
 	    console.log("The animation is completed");
-		$('#full-modal-content').css("height", $(document).height());
 		$('#frame1').css("height", $(document).height());
 	}, 
 	beforeClose: function() {
