@@ -77,6 +77,32 @@
 
 <script type="text/javascript" src="../js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
 <script type="text/javascript" src="../js/locales/bootstrap-datetimepicker.en.js" charset="UTF-8"></script>
+<script>
+    //demo 01
+    $("#bookingModal").animatedModal();
+
+    //demo 02
+    $("#demo02").animatedModal({
+	modalTarget:'modal-02',
+	animatedIn:'lightSpeedIn',
+	animatedOut:'bounceOutDown',
+	color:'#3498db',
+	// Callbacks
+	beforeOpen: function() {
+	    console.log("The animation was called");
+	},           
+	afterOpen: function() {
+	    console.log("The animation is completed");
+	}, 
+	beforeClose: function() {
+	    console.log("The animation was called");
+	}, 
+	afterClose: function() {
+	    console.log("The animation is completed");
+	}
+    });
+
+</script>
 <script type="text/javascript">
     $('.form_datetime').datetimepicker({
         //language:  'fr',
