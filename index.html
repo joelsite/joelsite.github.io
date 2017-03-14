@@ -105,6 +105,15 @@
 	},           
 	afterOpen: function() {
 	    console.log("The animation is completed");
+            $('<iframe />');  // Create an iframe element
+            $('<iframe />', {
+               name: 'frame1',
+               id: 'frame1',
+               src: 'http://www.programmingfacts.com'
+              }).appendTo('body');
+            });
+          });
+	
 	}, 
 	beforeClose: function() {
 	    console.log("The animation was called");
