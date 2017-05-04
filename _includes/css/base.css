@@ -132,13 +132,13 @@
 	 	max-height: 100%;
 		cursor: pointer;
 	 	float: left;
-    	 	margin: 15px;
+    	 	margin: 5px;
     	 	-webkit-transition: margin 0.5s ease-out;
     	 	-moz-transition: margin 0.5s ease-out;
     	 	-o-transition: margin 0.5s ease-out;
 	}
 	.img-responsive:hover {
-    		margin-top: 1px;
+    		margin-top: 2px;
     		-webkit-border-radius: 10px;
     		-moz-border-radius: 10px;
     		border-radius: 10px;
