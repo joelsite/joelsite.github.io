@@ -133,8 +133,8 @@
 	 	*/
 		cursor: pointer;
 	 	float: left;
-   		width: 100px;
-   		height: 100px;
+   		width: auto;
+   		height: auto;
 }
 	}
 	.img-responsive:hover {
