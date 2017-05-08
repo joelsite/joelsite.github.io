@@ -128,13 +128,9 @@
 		cursor: pointer;	
 	}
 	.img-responsive {
-	 	/*width: auto;
-	 	max-height: 100%;
-	 	*/
+	 	width: auto;
 		cursor: pointer;
 	 	float: left;
-   		width: 300px;
-   		height: 250px;
    		max-height: 250px;
 }
 	}
