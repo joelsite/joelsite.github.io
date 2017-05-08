@@ -134,7 +134,7 @@
 		cursor: pointer;
 	 	float: left;
    		width: auto;
-   		height: auto;
+   		height: 300px;
 }
 	}
 	.img-responsive:hover {
