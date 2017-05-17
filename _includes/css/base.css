@@ -96,6 +96,11 @@
 	a:hover, a:focus { }
 	p a, p a:visited { line-height: inherit; }
 
+	.a { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+	}
+
 
 /* #Lists
 ================================================== */
@@ -130,7 +135,6 @@
 	.img-responsive {
 	 	width: auto;
 		cursor: pointer;
-		position: relative;
 	 	float: left;
    		max-height: 250px;
 }
@@ -148,7 +152,7 @@
 	   width: 100%; 
 
 	}
-	
+
 	h2 span { 
    color: white; 
    font: bold 24px/45px Helvetica, Sans-Serif; 
