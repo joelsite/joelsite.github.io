@@ -145,14 +145,16 @@
     width: 250px;
 	}
 	.image-wrapper p {
-	    position: absolute;
-	    left: 0;
-	    top: 0;
-	    padding: 10px;
-	    border: 1px solid #FFF;
-	    width: 218px;
-	    color: #FFF;
-	    margin: 5px;
+	   position: absolute; 
+	   top: 200px; 
+	   left: 0; 
+	   width: 100%; 
+	   color: white; 
+	   font: bold 24px/45px Helvetica, Sans-Serif; 
+	   letter-spacing: -1px;  
+	   background: rgb(0, 0, 0); /* fallback color */
+	   background: rgba(0, 0, 0, 0.7);
+	   padding: 10px; 
 	}
 
 /* #Buttons
