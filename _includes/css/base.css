@@ -140,6 +140,20 @@
 		box-shadow:         0px 0px 30px 0px rgba(238, 162, 54, 0.67);
 	}
 
+	.image-wrapper {
+    position: relative;
+    width: 250px;
+	}
+	.image-wrapper p {
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    padding: 10px;
+	    border: 1px solid #FFF;
+	    width: 218px;
+	    color: #FFF;
+	    margin: 5px;
+	}
 
 /* #Buttons
 ================================================== */
