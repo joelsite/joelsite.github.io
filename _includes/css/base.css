@@ -148,6 +148,7 @@
 	   position: absolute; 
 	   top: 0px; 
 	   left: 0; 
+	   margin-top: 0px;
 	   width: 100%; 
 	   color: white; 
 	   font: bold 24px/45px Helvetica, Sans-Serif; 
