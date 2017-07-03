@@ -127,19 +127,13 @@
 	.b-responsive{
 		cursor: pointer;	
 	}
-	.img-responsive {
+	.img-new {
 	 	width: 400px;
 	 	height: 300px;
 		cursor: pointer;
 	 	float: left;
    		
 }
-	
-	.img-responsive:hover {
- 		-webkit-box-shadow: 0px 0px 30px 0px rgba(238, 162, 54, 0.67);
-		-moz-box-shadow:    0px 0px 30px 0px rgba(238, 162, 54, 0.67);
-		box-shadow:         0px 0px 30px 0px rgba(238, 162, 54, 0.67);
-	}
 
 	.image-wrapper {
     position: relative;
