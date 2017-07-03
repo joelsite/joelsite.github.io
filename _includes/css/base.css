@@ -128,10 +128,11 @@
 		cursor: pointer;	
 	}
 	.img-responsive {
-	 	width: auto;
+	 	width: 400px;
+	 	height: 300px;
 		cursor: pointer;
 	 	float: left;
-   		max-height: 250px;
+   		
 }
 	
 	.img-responsive:hover {
